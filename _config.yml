@@ -15,12 +15,18 @@
 # in the templates via {{ site.myvariable }}.
 title: "Hello. I'm Haeun Jang."
 email: 'j.haeun@yonsei.ac.kr'
-description: "I'm a master's student in the Department of Innovation at Yonsei University, where I work with <a href='https://jyskwon.github.io/'>Prof. Jean Young Song</a> in the <a href='https://diag.kr/'>DIAG (Designing Intelligence Augmentation Group)</a>."
+description: "I'm a master's student in the Department of Innovation at Yonsei University, \
+              where I work with <a href='https://jyskwon.github.io/'>Prof. Jean Young Song</a> \
+              in the <a href='https://diag.kr/'>DIAG (Designing Intelligence Augmentation Group)</a>. \
+              My interests include AI, human-computer interaction, media data, and mental health. \
+              And I'm always open to learning in new fields."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jayuhan.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: ''
 github_username: 'jayuhan'
-medium_username: ''
+linkedin_url: "https://www.linkedin.com/in/jhaeun127/"
+cv_url: "/assets/my-cv.pdf"
+# medium_username: ''
 
 # Build settings
 markdown: kramdown
@@ -37,7 +43,7 @@ paginate_path: "/page:num/"
 pagination:
   
   # Site-wide kill switch, disabled here it doesn't run at all 
-  enabled: false
+  enabled: True
 
   # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
   debug: false
