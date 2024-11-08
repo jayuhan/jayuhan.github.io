@@ -343,6 +343,37 @@ button.btn, input.btn {
   }
 }
 
+.contact-info {
+  font-size: 14px;
+  margin-top: 2em;
+  border-top: 1px solid #efefef;
+  padding: 1em 0;
+  position: fixed;
+  bottom: 20px;   /* 화면 하단에서 20px 위치 */
+  right: 20px;    /* 화면 우측에서 20px 위치 */
+  background-color: rgba(0, 0, 0, 0.6); /* 배경색 설정 (선택사항) */
+  color: white;   /* 텍스트 색상 */
+  border-radius: 5px;  /* 모서리 둥글게 */
+}
+
+.contact-info p {
+  font-size: 12px;
+  font-weight: 600;
+  color: #9eb1bd;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.contact-info a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+
 /*--------------------------------------------------------------
 	5.0 Code formatting
 --------------------------------------------------------------*/
