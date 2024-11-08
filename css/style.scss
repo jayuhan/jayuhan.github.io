@@ -66,7 +66,7 @@ img {
 
 button.btn, input.btn {
   /*padding: 12px 35px;*/
-  width: 200px;
+  width: 160px;
   height: 50px;
   padding: 0;
   margin: 2em 0.5em;
@@ -139,6 +139,7 @@ button.btn, input.btn {
   }
   h1 {
     font-size: 48px;
+    margin-bottom: 20px;
   }
   p {
     margin: 2em 0 4em 0;
@@ -450,7 +451,7 @@ pre {
 	7.0 profile image styles added
   --------------------------------------------------------------*/
     .profile-image {
-      width: 200px; /* 원하는 너비로 설정 */
+      width: 150px; /* 원하는 너비로 설정 */
       height: auto; /* 비율 유지 */
       border-radius: 50%; /* 원형 이미지로 만들기 (선택사항) */
       display: block;
