@@ -19,7 +19,7 @@ description: "I'm a master's student in the Department of Innovation at Yonsei U
               where I work with <a href='https://jyskwon.github.io/'>Prof. Jean Young Song</a> \
               in the <a href='https://diag.kr/'>DIAG (Designing Intelligence Augmentation Group)</a>. \
               My interests include AI, human-computer interaction, media data, and mental health. \
-              And I'm always open to learning in new fields."
+              I'm always open to learning in new fields."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jayuhan.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: ''

@@ -34,16 +34,16 @@
 
             <!-- Font Awesome 6 -->
             <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-            
+
             {% if site.twitter_username != '' %}
-              <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><button class="btn btn-default btn-lg"><i class="fa fa-twitter fa-lg"></i>X</button></a>
+              <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><button class="btn btn-default btn-lg"><i class="fa-brands fa-x-twitter"></i>X</button></a>
             {% endif %}
             {% if site.github_username != '' %}
-              <a href="https://github.com/{{ site.github_username }}" target="_blank"><button class="btn btn-default btn-lg"><i class="fa fa-github fa-lg"></i>GitHub</button></a>
+              <a href="https://github.com/{{ site.github_username }}" target="_blank"><button class="btn btn-default btn-lg"><i class="fa-brands fa-github"></i>GitHub</button></a>
             {% endif %}
             <!-- LinkedIn Button -->
             {% if site.linkedin_url != '' %}
-            <a href="{{ site.linkedin_url }}" target="_blank"><button class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-lg"></i>LinkedIn</button></a>
+            <a href="{{ site.linkedin_url }}" target="_blank"><button class="btn btn-default btn-lg"><i class="fa-brands fa-linkedin"></i>LinkedIn</button></a>
             {% endif %}
             <!-- CV Button -->
             {% if site.cv_url != '' %}
