@@ -16,7 +16,6 @@
 title: "Hello. I'm Haeun Jang."
 email: 'j.haeun@yonsei.ac.kr'
 description: "I'm a master's student in the Department of Innovation at Yonsei University, where I work with <a href='https://jyskwon.github.io/'>Prof. Jean Yong Song</a> in the <a href='https://diag.kr/'>DIAG (Designing Intelligence Augmentation Group)</a>."
-"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jayuhan.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: ''
